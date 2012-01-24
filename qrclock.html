@@ -1,0 +1,27 @@
+<h1>QRClock</h1>
+<p>The least effective clock in the world!</p>
+<h3>The Current Time Is:</h3>
+<div id="qrclock"></div>
+
+<table id="control">
+    <tr><th colspan="5">Speed Control</th></tr>
+    
+    <tr><form Name="f1">
+        <td><Input type = radio Name = r1 Value = "1" checked></td>
+        <td><Input type = radio Name = r1 Value = "5"></td>
+        <td><Input type = radio Name = r1 Value = "15"></td>
+        <td><Input type = radio Name = r1 Value = "30"></td>
+        <td><Input type = radio Name = r1 Value = "60"></td>
+    </form></tr>
+    
+    <tr>
+        <td>1s</td>
+        <td>5s</td>
+        <td>15s</td>
+        <td>30s</td>
+        <td>60s</td>
+    </tr>
+</table>
+
+<script type="text/javascript" src="jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="qrclock.js"></script>
